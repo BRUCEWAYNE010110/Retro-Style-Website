@@ -7,3 +7,6 @@ ek line me items ko laana - display:flex;
 
 overflow: hidden; ---------------------()
 object-fit: cover;---------------------()
+line-height: 300px; -------------------()
+
+### locomotive.js --smooth scrolling

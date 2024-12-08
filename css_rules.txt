@@ -1,0 +1,9 @@
+ek line me items ko laana - display:flex;
+#####items ko center pe laana 
+    1] y-axis align-items:center;
+    2] x-axis justify-content :space-between;
+
+## lorem20 ## - 20words will be written
+
+overflow: hidden; ---------------------()
+object-fit: cover;---------------------()

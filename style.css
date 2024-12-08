@@ -1,3 +1,8 @@
+@font-face {
+    font-family: editorial;
+    src: url(./Fonts/EditorialNew-Light.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +13,162 @@ html, body{
     height: 100%;
     width : 100%;
 
+
 }
 
 #page1 {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
+    background-color: #C7BFB5;
+    position: relative;
+}
+
+#nav{
+    height: 110px;
+    width:100%;
+    display:flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+#nav img{
+    height: 50px;
+    width: 40%;
+}
+
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 40%;
+}
+#nav i{
+    width: 40%;
+    text-align: right;
+}
+
+#elems {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elem1 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+
+
+}
+
+#elem2 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    border-right: 2px solid #acacac;
+    padding: 20px 60px;
+    text-align: center;
+    border-left: 2px solid #a5a5a5;
+}
+
+#elem3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+#elem1 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    
+}
+
+#elem3 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div:hover img {
+    scale: 1.1;
+}
+
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+#elem1 h4 span{
+    background-color: #B83C12;
+    color: #C7BFB5;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#elem1 p{
+    font-weight: 300;
+    font-family: editorial;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2f2f2f;
+}
+
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+#elem3 h4 span{
+    
+    background-color: #B83C12;
+    color: #C7BFB5;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+#elem3 p{
+    font-weight: 300;
+    font-family: editorial;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2f2f2f;
+}
+
+#elem2 h2{
+    font-family: canopee;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#elem2 h3{
+    font-family: editorial;
+    font-size: 24px;
+    color: #35322c;
+    font-weight: 800;
+    margin: 20px 0;
+}
+#elem2 h6 {
+    font-family: editorial;
+    font-size: 18px;
+    color: #2f2f2f;
+    font-weight: 200;
 }

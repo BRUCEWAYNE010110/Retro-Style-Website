@@ -460,16 +460,14 @@ html, body{
     background-color: #C7BFB5;
     height: 30vh;
     width : 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
 
     
     
 
 }
 .divp5{
-    width:100%;
+    width:96%;
     padding: 40px 20px;
     align-self: center;
     display: flex;
@@ -508,4 +506,133 @@ html, body{
     font-family:canopee;
     font-size: 128px;
 }
+/* =========== PAGE6 ============= */
+#page6{
+    height:200vh;
+    width:100%;
+    background-color: #C7BFB5;
+    
+}
 
+#page6 .con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.p6-left{
+    margin-left:2%;
+    width: 50%;
+    
+}
+.pl{
+    padding : 10px 30px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pl img{
+    height: 360px ;
+    width:30%;
+    object-fit:cover;
+}
+
+
+.p6-left h1{
+    padding-right: 10px;
+    line-height: 350px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: canopee;
+    font-size: 430px;
+}
+.pl h1{
+    /* padding-right: 10px; */
+    line-height: 350px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-family: canopee;
+    font-size: 470px;
+}
+
+
+
+
+.p6-right{
+    margin-right:2%;
+    width: 50%;
+}
+.p6-right img{
+    padding-left: 40px;
+    width: 100%;
+    height: 780px;
+    object-fit: cover;
+    padding-bottom: 40px;
+}
+
+.page6s2{
+    margin-right: 2%;
+    padding-right: -10px;
+}
+.s1{
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s1 img{
+    height: 300px;
+    width : 25%;
+    object-fit: cover;
+    margin-bottom: 20px ;
+}
+.s1 h1{
+    margin-right: 2%;
+    line-height: 300px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: canopee;
+    font-size: 400px;
+}
+.s1 h1 span{
+    
+    line-height: 300px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: editorial;
+    font-size: 350px;
+}
+
+.s2{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art {
+    width: 80%;
+    padding-right : 30px
+    /* height: auto; */
+
+}
+.art h1{
+    letter-spacing: 20px;
+    background-color: #1C1C1A;
+    color: #C4BCB3;
+    font-family: canopee;
+    font-size: 300px;
+
+}
+
+.art2 p{
+    font-family: editorial;
+    font-size: 26px;
+    
+}
+.art2 h2{
+    font-family: canopee;
+    font-size: 88px;
+    letter-spacing: 10px;
+}

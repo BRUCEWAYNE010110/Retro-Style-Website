@@ -36,6 +36,7 @@ html, body{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #222;
+    z-index: 2;
 }
 
 #nav img{
@@ -454,3 +455,57 @@ html, body{
 #gola:hover h1{
     transform :translateX(140%)
 }
+
+#page5{
+    background-color: #C7BFB5;
+    height: 30vh;
+    width : 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+
+}
+.divp5{
+    width:100%;
+    padding: 40px 20px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top: 2px solid #35322c;
+    border-bottom: 2px solid #35322c;
+}
+
+.div1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.div1-left{
+    padding:10px;
+}
+.div1-left h2{
+    font-family: editorial;
+    font-size: 28px;
+    font-weight: 100;
+}
+.div1-left h1{
+    font-family: canopee;
+    font-size: 88px;
+    font-weight: 100;
+}
+
+.div-right h1{
+    padding-left: 10px;
+    font-family:canopee;
+    font-size: 128px;
+}
+

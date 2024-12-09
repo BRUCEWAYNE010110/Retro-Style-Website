@@ -198,7 +198,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding : 90px 30px;
+    padding : 53px 40px;
 }
 
 #page2-left {
@@ -230,11 +230,12 @@ html, body{
    font-family: editorial;
    padding-top: 20px;
    font-size: 26px;
+   line-height: 30px;
 
 }
 
 #page2-right{
-    height: 100%;
+    
     /* background-color: red; */
     padding-left: 50px;
 }
@@ -253,4 +254,42 @@ html, body{
     font-weight: 500;
     letter-spacing: 2px;
     line-height: 90px;
+}
+
+#page3 {
+    padding-bottom: 10px;
+    position: relative;
+    background-color: #C4BCB3;
+}
+
+#page3 h1 {
+    font-size: 350px;
+    font-weight: 100;
+    letter-spacing: 8px;
+    background-color: #1C1C19;
+    width: fit-content;
+    color: #C4BCB3;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 400px;
+    /* margin-right: 50%; */
+    font-family: canopee;
+    /* border-right: 20px solid #2d2c2c; */
+    
+}
+
+#page3 img {
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 2.7%;
+    
+
+}
+
+#page4{
+    height: 100vh;
+    width:100%;
+    background-color:#C7BFB5;
+    
 }

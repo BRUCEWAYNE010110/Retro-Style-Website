@@ -10,3 +10,4 @@ object-fit: cover;---------------------()
 line-height: 300px; -------------------()
 
 ### locomotive.js --smooth scrolling
+transition : all ease 0.7s; --- this should be applied but not in xyz:hover

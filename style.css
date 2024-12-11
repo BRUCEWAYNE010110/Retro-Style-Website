@@ -750,3 +750,53 @@ html, body{
     background-color: #C7BFB5;
 }
 
+#endpage{
+    width: 100%;
+    background-color: #C7BFB5;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 2px solid #2f2f2f;
+    border-bottom: 2px solid #2f2f2f;
+}
+
+#endpage::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes a1 {
+    0% {
+        transform: translateX(0);;
+    }
+    100% {
+        transform: translateX(calc(-100% - 34px));
+    }
+} 
+
+#endpage h1{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: editorial;
+    font-size: 72px;
+    color: #2f2f2f;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 30px;
+    animation-name: a1;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#endpage h1 span{
+    font-family: canopee;
+    background-color: #1C1C19;
+    color: #C7BFB5;
+    padding-top: 20px;
+    padding: 0 12px;
+}
+
+#endpage:hover h1{
+    animation-play-state: paused;
+}

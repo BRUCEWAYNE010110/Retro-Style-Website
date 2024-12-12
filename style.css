@@ -800,3 +800,141 @@ html, body{
 #endpage:hover h1{
     animation-play-state: paused;
 }
+
+/* Existing styles remain unchanged */
+
+/* Small screen optimization */
+@media (max-width: 768px) {
+
+    /* Adjust navigation bar layout */
+    #nav {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 10px;
+    }
+    
+    #nav h5 {
+        font-size: 16px; /* Reduce font size */
+        width: auto; /* Adjust width for better layout */
+    }
+
+    #nav img {
+        width: 80%; /* Reduce image width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Optimize page1 layout */
+    #page1 {
+        height: 100vh; /* Fit viewport */
+    }
+
+    #elems {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 20px; /* Reduce padding */
+    }
+
+    #elem1, #elem2, #elem3 {
+        width: 100%; /* Use full width */
+        margin-bottom: 20px; /* Add spacing */
+    }
+
+    /* Resize large headings */
+    #page1 h1 {
+        font-size: 200px; /* Reduce font size */
+        line-height: 200px; /* Adjust line height */
+    }
+
+    #page2 {
+        flex-direction: column; /* Stack left and right sections */
+        align-items: center; /* Center-align elements */
+        padding: 20px;
+    }
+
+    #page2-left, #page2-right {
+        width: 100%; /* Full width */
+        padding: 0; /* Remove side padding */
+    }
+
+    #page2-left h2 {
+        font-size: 60px; /* Reduce font size */
+        line-height: 80px;
+    }
+
+    #page2-left img, #page2-right img {
+        height: auto; /* Maintain aspect ratio */
+        width: 100%; /* Full width */
+    }
+
+    #page2-right h1 {
+        font-size: 80px; /* Reduce font size */
+        line-height: 70px;
+    }
+
+    /* Adjust page3 */
+    #page3 h1 {
+        font-size: 150px; /* Reduce heading size */
+        line-height: 150px;
+    }
+
+    #page3 img {
+        width: 80%; /* Reduce image size */
+        height: auto;
+    }
+
+    /* Adjust grid layouts */
+    #elems2 {
+        flex-direction: column; /* Stack elements */
+        padding: 20px;
+    }
+
+    #elem21, #elem22 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #page4-right {
+        padding: 20px; /* Reduce padding */
+    }
+
+    #page4-right h1, #page4-right h2 {
+        font-size: 60px; /* Reduce font sizes */
+    }
+
+    #page5 {
+        height: auto; /* Allow content to define height */
+    }
+
+    .div1 {
+        flex-direction: column; /* Stack awards sections */
+        align-items: flex-start; /* Align items */
+    }
+
+    .div1-left h1, .div-right h1 {
+        font-size: 60px; /* Reduce font size */
+    }
+
+    /* Adjust final sections */
+    .p6-left h1 {
+        font-size: 200px; /* Reduce size */
+        line-height: 200px;
+    }
+
+    .p6-right img {
+        width: 100%; /* Full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .s1 img {
+        height: auto; /* Maintain aspect ratio */
+        width: 100%; /* Full width */
+    }
+
+    .art h1 {
+        font-size: 150px; /* Reduce size */
+        letter-spacing: 10px;
+    }
+
+    #endpage h1 {
+        font-size: 40px; /* Reduce size */
+    }
+}
